@@ -42,3 +42,10 @@ This is SDA/SCL lines,
 
 ![Atmega168_328_datasheet/avr_sda_scl.PNG](Atmega168_328_datasheet/avr_sda_scl.PNG)  
 ![Atmega168_328_datasheet/nano_sda_scl.PNG](Atmega168_328_datasheet/nano_sda_scl.PNG)  
+
+
+### PC software / MCU firmware, precompiled and testing, no battery connection is required  
+![Firmware_Hostware/PC_software/connected.PNG](Firmware_Hostware/PC_software/connected.PNG)
+![Firmware_Hostware/PC_software/sign.PNG](Firmware_Hostware/PC_software/sign.PNG)
+[Firmware_Hostware/PC_software]  
+[Firmware_Hostware/MCU_firmware]  
