@@ -11,4 +11,8 @@ https://github.com/xiaolaba/SmartBatteryHack
 ### the last activiy about Smart Battery  
 https://github.com/xiaolaba/ATmega406-SPHDV20
 
+### find pinout of Toshiba_T210_battery_PA3820U  
+this is data sheet and the hints  
 
+![Toshiba_T210_battery_PA3820U/Toshiba_T210_battery_pintout.PNG]Toshiba_T210_battery_PA3820U/Toshiba_T210_battery_pintout.PNG)  
+![Toshiba_T210_battery_PA3820U/TOSHIBA_PA3820U.PNG](Toshiba_T210_battery_PA3820U/TOSHIBA_PA3820U.PNG)  
