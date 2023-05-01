@@ -47,5 +47,5 @@ This is SDA/SCL lines,
 ### PC software / MCU firmware, precompiled and testing, no battery connection is required  
 ![Firmware_Hostware/PC_software/connected.PNG](Firmware_Hostware/PC_software/connected.PNG)
 ![Firmware_Hostware/PC_software/sign.PNG](Firmware_Hostware/PC_software/sign.PNG)
-[Firmware_Hostware/PC_software]  
-[Firmware_Hostware/MCU_firmware]  
+[Firmware_Hostware/PC_software](Firmware_Hostware/PC_software)  
+[Firmware_Hostware/MCU_firmware](Firmware_Hostware/MCU_firmware)  
