@@ -51,6 +51,6 @@ testing the communication of PC/MCU, ok
 sign the C# PC software for installation and expireation date till 2027  
 ![Firmware_Hostware/PC_software/sign.PNG](Firmware_Hostware/PC_software/sign.PNG)
 
-path of the software release,
+path of the software release,  
 [Firmware_Hostware/PC_software](Firmware_Hostware/PC_software)  
 [Firmware_Hostware/MCU_firmware](Firmware_Hostware/MCU_firmware)  
