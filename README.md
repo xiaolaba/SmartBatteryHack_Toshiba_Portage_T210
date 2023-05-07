@@ -54,3 +54,83 @@ sign the C# PC software for installation and expireation date till 2027
 path of the software release,  
 [Firmware_Hostware/PC_software](Firmware_Hostware/PC_software)  
 [Firmware_Hostware/MCU_firmware](Firmware_Hostware/MCU_firmware)  
+
+
+
+### battery pack info.  
+there is another project used for gather the pack info  
+see this, https://github.com/ArminJo/Smart-Battery-Module-Info_For_Arduino/  
+as becasue no LCD2004 and test rig only available with LCD1602V2-P6, so other project and modified code is used.  
+```
+Smart-Battery-Module-Info_For_Arduino-master\SBMInfo\SBMInfo.ino
+Version 4.1 from May  7 2023
+Configured to stop discharge at 3300 mV
+No LiPo supply detected -> fast display timing
+Found I2C device at 0x0B
+
+*** STATIC INFO ***
+Battery mode                        0x6101 | 0b110000100000001
+                                    - Internal Charge Controller Supported
+                                    - Battery OK
+                                    - Charge Controller Enabled
+                                    - Disable AlarmWarning broadcast to Host and Smart Battery Charger
+                                    - Disable broadcasts of ChargingVoltage and ChargingCurrent to Smart Battery Charger
+
+Manufacturer Name                   SONY
+Chemistry                           LION
+Manufacturer Data                   0x6 D5 B 83 5 A 21 7 0 1 0 0 0 
+Device Name                         NS2P3SZTL4WR
+Serial number                       923 | 0x39B
+Manufacture date (YYYY-MM-DD)       2010-12-26
+Design voltage                      10.800 V
+Design capacity                     0 mAh
+Charging current                    0 mA
+Charging voltage                    0.000 V
+SBM protocol (Version / Revision)   1.1 with optional PEC support / 1
+Cycle count                         488
+
+Max error of charge calculation     0%
+Remaining time alarm                0 min
+Remaining capacity alarm            0 mAh
+
+*** MANUFACTURER INFO ***
+Device Type                         43274 | 0xA90A
+
+*** RATE TEST INFO ***
+Setting AT rate to                  100 mA
+TimeToFull at rate                  0 min
+Setting AT rate to                  -100 mA
+TimeToEmpty at rate                 0 min
+Can be delivered for 10 seconds at rate  0 | 0x0
+
+*** DYNAMIC INFO ***
+Relative charge                     0%
+Absolute charge                     0%
+Full charge capacity                0 mAh = 255%
+Remaining capacity                  0 mAh
+Voltage                             11.925 V
+Current                             0 mA
+Average current of last minute      0 mA
+Temperature                         34.35 C
+Minutes remaining until empty       0 min
+Average minutes remaining until empty  0 min
+Minutes remaining for full charge   0 min
+Battery status (BIN)                0x0 | 0b0
+
+Pack config and status              0x624 | 0b11000100100
+                                    - Pack not inserted
+                                    - Voltage > EDV2
+                                    - Pack sealed
+
+
+*** DYNAMIC NON STANDARD INFO ***
+Cell 1 Voltage                      3.709 V
+Cell 2 Voltage                      4.119 V
+Cell 3 Voltage                      4.098 V
+Cell 4 Voltage                      0x0
+State of Health                     1808 | 0x710
+
+*** CHANGED VALUES ***
+Temperature                         34.15 C
+
+```
